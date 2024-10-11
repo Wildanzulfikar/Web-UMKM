@@ -179,7 +179,7 @@ h1 {
     align-items: center;
     padding-top: 64px;
 }
-
+ 
 .menu {
     background-color: #D9376E;
     padding: 1.5% 8%;
@@ -316,6 +316,21 @@ label  {
 
     .left-content {
         padding: 0px 17% 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .layanan-hemat {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 68px;
+        margin: 84px 0px;
+        padding: 17px 17%;
+        place-items: center;   
+    }
+
+    .alasan {
+        font-size: 56px;
     }
 }
 
@@ -466,20 +481,7 @@ label  {
     
 }
 
-@media only screen and (max-width: 1030px) {
-    .layanan-hemat {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-        gap: 68px;
-        margin: 84px 0px;
-        padding: 17px 17%;
-        place-items: center;   
-    }
 
-    .alasan {
-        font-size: 56px;
-    }
-}
 
 @media only screen and (max-width: 500px) {
     .button-layanan a {
