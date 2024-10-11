@@ -135,6 +135,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     gap: 24px;
 }
 
@@ -319,15 +320,37 @@ label  {
     }
 }
 
-@media only screen and (max-width: 1030px) {
+@media  (min-width: 1300px) {
+
+    .group-layanan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EFF0F3;
+        width: 290px;
+        height: 380px;
+        padding: 44px;
+        border-radius: 180px 180px 0px 0px;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
     .layanan-hemat {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-        gap: 68px;
+        display: flex;
+        justify-content: space-between;
+        gap: 78px;
         margin: 84px 0px;
         padding: 17px 17%;
         place-items: center;   
     }
+
+
+    .layanan-content img {
+        width: 95%;
+    }
+
+  }
+
+@media only screen and (max-width: 1030px) {
 
     .alasan {
         font-size: 56px;
@@ -462,7 +485,7 @@ label  {
         font-size: 48px;
     }
 
-    .group-layanan {
+    /* .group-layanan {
         background-color: #EFF0F3;
         width: 240px;
         padding: 24px;
@@ -477,7 +500,7 @@ label  {
         margin: 84px 0px;
         padding: 17px 17%;
         place-items: center;   
-    }
+    } */
     
 }
 
