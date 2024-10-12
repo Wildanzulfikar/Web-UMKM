@@ -1,0 +1,352 @@
+body {
+  font-family: "Poppins";
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.Title {
+  text-align: center;
+  color: #ff8e3c;
+  font-family: "Oregano";
+  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.Title2 h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.kategori {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.kategoriayam,
+.kategoriikan,
+.kategoridaging {
+  text-align: center;
+  display: flex;
+  gap: 9px;
+}
+
+.kategoriayam,
+.kategoriikan,
+.kategoridaging {
+  cursor: pointer;
+}
+
+.kategoriayam img,
+.kategoriikan img,
+.kategoridaging img {
+  width: 40px;
+  height: 40px;
+}
+
+.menucard {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.menu1 {
+  display: none;
+  width: 40%;
+  height: 285px;
+  background-color: #eff0f3;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding-top: 80px;
+  padding: 16px;
+  margin-top: 80px;
+  text-align: center;
+  position: relative;
+  transition: all 1s;
+}
+
+.menu1 img {
+  width: 60%;
+  border-radius: 50%;
+  position: absolute;
+  top: -80px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+.menu1 h3 {
+  margin: 30px;
+  margin-top: 150px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Ratings {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 29px;
+  margin-right: 29px;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.ratingstar,
+.ratingkomen {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 8px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.bintang i,
+.komentar i {
+  margin-right: 7px;
+  margin-bottom: 8px;
+}
+
+.elipse1 img {
+  z-index: -10;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.elipse2 img {
+  z-index: -10;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-size: 11px;
+    items-align: center;
+  }
+
+  .menucard {
+    margin: 36px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    flex-warp: wrap;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 0;
+    gap: 15px;
+  }
+  .Title,
+  .Title2 {
+    margin-bottom: 5px;
+  }
+  .menu1 {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .menu1 img {
+    margin-top: 20px;
+  }
+
+  .menu1 h3 {
+    margin-top: 70px;
+    font-size: 14px;
+  }
+
+  .Ratings {
+    margin-left: 0px;
+    left: 0px;
+  }
+
+  .ratingstar,
+  .ratingkomen {
+    font-size: 15px;
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .menucard {
+    display: flex;
+    flex-direction: column;
+    margin-left: 37px;
+  }
+
+  .menu1 {
+    width: 60%;
+    margin-left: 60px;
+    margin-bottom: 40px;
+  }
+  .menu1 h3 {
+    margin-top: 100px;
+    font-size: 12px;
+  }
+
+  .Title p,
+  .Title2 h1 {
+    font-size: 15px;
+  }
+
+  .kategoriayam img,
+  .kategoriikan img,
+  .kategoridaging img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .kategoriayam p,
+  .kategoriikan p,
+  .kategoridaging p {
+    font-size: 7px;
+  }
+
+  .Ratings {
+    margin-left: 25px;
+    width: 60px;
+    margin-left: 35px;
+  }
+
+  .ratingstar,
+  .ratingkomen {
+    font-size: 11px;
+  }
+
+  .bintang i,
+  .komentar i {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 330px) {
+  .menucard {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: black;
+  }
+
+  .menu1 {
+    width: 60%;
+    margin-left: 46px;
+    margin-bottom: 40px;
+  }
+
+  .menu1 img {
+    margin-top: 40px;
+  }
+  .menu1 h3 {
+    margin-top: 100px;
+    font-size: 12px;
+  }
+
+  .Title p,
+  .Title2 h1 {
+    font-size: 15px;
+  }
+
+  .kategoriayam img,
+  .kategoriikan img,
+  .kategoridaging img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .kategoriayam p,
+  .kategoriikan p,
+  .kategoridaging p {
+    font-size: 7px;
+  }
+
+  .Ratings {
+    width: 100%;
+    background-color: green;
+    justify-content: center;
+  }
+
+  .ratingstar,
+  .ratingkomen {
+    font-size: 11px;
+    margin-left: 4px;
+  }
+
+  .bintang i,
+  .komentar i {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 400px) {
+  .menucard {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .menu1 {
+    width: 60%;
+    /* margin-left: 60px; */
+    margin-bottom: 40px;
+  }
+
+  .menu1 img {
+    margin-top: 40px;
+  }
+  .menu1 h3 {
+    margin-top: 100px;
+    font-size: 12px;
+  }
+
+  .Title p,
+  .Title2 h1 {
+    font-size: 15px;
+  }
+
+  .kategoriayam img,
+  .kategoriikan img,
+  .kategoridaging img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .kategoriayam p,
+  .kategoriikan p,
+  .kategoridaging p {
+    font-size: 7px;
+  }
+
+  .Ratings {
+    margin-left: 25px;
+    width: 60px;
+    margin: 0px 35px 0px;
+  }
+
+  .ratingstar,
+  .ratingkomen {
+    font-size: 11px;
+  }
+
+  .bintang i,
+  .komentar i {
+    font-size: 9px;
+  }
+}
