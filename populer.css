@@ -1,9 +1,21 @@
 body {
   font-family: "Poppins";
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.group-populer {
+  padding: 120px 17%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 28px;
+  margin-bottom: 56px;
 }
 
 .Title {
@@ -17,7 +29,7 @@ body {
 
 .Title2 h1 {
   text-align: center;
-  margin-bottom: 48px;
+  font-size: 64px;
 }
 
 .kategori {
@@ -97,6 +109,7 @@ body {
   padding: 8px;
   width: 40%;
   border-radius: 10px;
+  margin-top: 28px;
 }
 
 .bintang i,
@@ -105,30 +118,10 @@ body {
   margin-bottom: 8px;
 }
 
-.elipse1 img {
-  z-index: -10;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 0;
-  padding: 0;
-}
-
-.elipse2 img {
-  z-index: -10;
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-}
-
 @media (max-width: 1050px) {
   .menu1 {
     display: none;
-    width: 60%;
+    width: 100%;
     background-color: #eff0f3;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -160,7 +153,7 @@ body {
 @media (max-width: 936px) {
   .menu1 {
     display: none;
-    width: 80%;
+    width: 100%;
     background-color: #eff0f3;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -201,7 +194,7 @@ body {
 
   .menu1 {
     display: none;
-    width: 80%;
+    width: 100%;
     background-color: #eff0f3;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -218,7 +211,7 @@ body {
   }
 
   .ratingstar,
-  .ratingkomen {
+  .ratingkomen{
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
@@ -230,112 +223,9 @@ body {
     font-size: 12px;
   }
 
-  /* .header {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    font-size: 11px;
-    items-align: center;
-  } */
-
-  /* .menucard {
-    margin: 36px;
-    margin-top: 70px;
-    font-size: 20px;
-    font-weight: bold;
-    flex-warp: wrap;
-    justify-content: space-around;
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 0;
-    gap: 15px;
-  } */
-
-  /* .Title,
-  .Title2 {
-    margin-bottom: 5px;
-  } */
-  
-  /* .menu1 {
-    width: 30%;
-    height: auto;
-    padding: 10px;
-    margin-top: 20px;
-  } */
-
-  /* .menu1 img {
-    margin-top: 20px;
-  }
-
-  .menu1 h3 {
-    margin-top: 70px;
-    font-size: 14px;
-  } */
-
-  /* .Ratings {
-    margin-left: 0px;
-    left: 0px;
-  }
-
-  .ratingstar,
-  .ratingkomen {
-    font-size: 15px;
-    width: 100%;
-    padding: 5px;
-  }
-}
-
-@media (max-width: 500px) {
-  .menucard {
-    display: flex;
-    flex-direction: column;
-    margin-left: 37px;
-  }
-
-  .menu1 {
-    width: 60%;
-    margin-left: 60px;
-    margin-bottom: 40px;
-  }
-  .menu1 h3 {
-    margin-top: 100px;
-    font-size: 12px;
-  }
-
-  .Title p,
   .Title2 h1 {
-    font-size: 15px;
+    font-size: 48px;
   }
-
-  .kategoriayam img,
-  .kategoriikan img,
-  .kategoridaging img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .kategoriayam p,
-  .kategoriikan p,
-  .kategoridaging p {
-    font-size: 7px;
-  }
-
-  .Ratings {
-    margin-left: 25px;
-    width: 60px;
-    margin-left: 35px;
-  }
-
-  .ratingstar,
-  .ratingkomen {
-    font-size: 11px;
-  }
-
-  .bintang i,
-  .komentar i {
-    font-size: 9px;
-  } */
 }
 
 @media (max-width: 520px) {
@@ -346,117 +236,4 @@ body {
   .Title2 h1 {
     font-size: 28px;
   }
-}
-
-@media (max-width: 330px) {
-  /* .menucard {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    background-color: black;
-  }
-
-  .menu1 {
-    width: 60%;
-    margin-left: 46px;
-    margin-bottom: 40px;
-  }
-
-  .menu1 img {
-    margin-top: 40px;
-  }
-  .menu1 h3 {
-    margin-top: 100px;
-    font-size: 12px;
-  }
-
-  .Title p,
-  .Title2 h1 {
-    font-size: 15px;
-  }
-
-  .kategoriayam img,
-  .kategoriikan img,
-  .kategoridaging img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .kategoriayam p,
-  .kategoriikan p,
-  .kategoridaging p {
-    font-size: 7px;
-  }
-
-  .Ratings {
-    width: 100%;
-    background-color: green;
-    justify-content: center;
-  }
-
-  .ratingstar,
-  .ratingkomen {
-    font-size: 11px;
-    margin-left: 4px;
-  }
-
-  .bintang i,
-  .komentar i {
-    font-size: 9px;
-  } */
-}
-
-@media (max-width: 400px) {
-  /* .menucard {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  } */
-
-  /* .menu1 {
-    width: 60%;
-    margin-bottom: 40px;
-  }
-
-  .menu1 img {
-    margin-top: 40px;
-  }
-  .menu1 h3 {
-    margin-top: 100px;
-    font-size: 12px;
-  }
-
-  .Title p,
-  .Title2 h1 {
-    font-size: 15px;
-  }
-
-  .kategoriayam img,
-  .kategoriikan img,
-  .kategoridaging img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .kategoriayam p,
-  .kategoriikan p,
-  .kategoridaging p {
-    font-size: 7px;
-  }
-
-  .Ratings {
-    margin-left: 25px;
-    width: 60px;
-    margin: 0px 35px 0px;
-  }
-
-  .ratingstar,
-  .ratingkomen {
-    font-size: 11px;
-  }
-
-  .bintang i,
-  .komentar i {
-    font-size: 9px;
-  } */
 }
