@@ -84,7 +84,8 @@ html {
 
 .menu1 img {
   width: 78%;
-  border-radius: 180px;
+  border-radius: 60%;
+  height: 150px;
   position: relative;
   top: -80px;
 }
