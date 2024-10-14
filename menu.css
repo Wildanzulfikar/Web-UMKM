@@ -178,7 +178,7 @@ html {
 .product-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 10px;
+    gap: 20px;
 }
 
 .product-card{
@@ -327,26 +327,32 @@ html {
         font-size: 20px;
     }
     
-    .product-card img{
-        width: 300px;
+    .product-card-image img {
+        width: 220px;
         height: auto;
     }
 
     .product-detail h2{
-        font-size: 15px;
+        font-size: 11px;
     }
     
     .product-detail p{
-        font-size: 11px;
-        color: #2A2A2A;
+        font-size: 9px;
+        max-width: 25ch;
     }
-
+    
+    .product-detail-price{
+        gap: 9px;
+        color: black;
+    }
+    
     .product-detail-price p{
-        font-size: 15px;
+        font-size: 10px;
+        margin-bottom: 10px;
     }
-
+    
     .product-detail .rating{
-        font-size: 15px;
+        font-size: 9px;
     }
     
 }
