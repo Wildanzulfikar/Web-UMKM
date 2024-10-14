@@ -173,7 +173,11 @@ html {
 .product-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
+<<<<<<< HEAD
     gap: 80px;
+=======
+    gap: 30px;
+>>>>>>> cedc859f7cc29ce158df0c077d54f37ef1a80709
 }
 
 .product-card{
@@ -540,7 +544,7 @@ html {
 
     .filter{
         gap: 30px;
-        margin-top: 150px;
+        margin-top: 70px;
     }
 
     .filter button{
@@ -631,7 +635,7 @@ html {
 
     .filter{
         gap: 20px;
-        margin-top: 150px;
+        margin-top: 40px;
         margin-bottom: 80px;
     }
 
@@ -723,7 +727,7 @@ html {
 
     .filter{
         gap: 15px;
-        margin-top: 130px;
+        margin-top: 20px;
         margin-bottom: 70px;
     }
 
@@ -821,7 +825,7 @@ html {
 
     .filter{
         gap: 20px;
-        margin-top: 150px;
+        margin-top: 20px;
         margin-bottom: 70px;
         overflow-y: auto;
         white-space: nowrap;
@@ -929,7 +933,7 @@ html {
 
     .filter{
         gap: 20px;
-        margin-top: 150px;
+        margin-top: 20px;
         margin-bottom: 70px;
         overflow-y: auto;
         white-space: nowrap;
@@ -1043,7 +1047,7 @@ html {
 
     .filter{
         gap: 10px;
-        margin-top: 130px;
+        margin-top: 20px;
         margin-bottom: 70px;
         overflow-y: auto;
         white-space: nowrap;
