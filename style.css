@@ -30,7 +30,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 700px 0px 17%;
+    padding: 0px 480px 0px 17%;
 }
 
 .logo-hemat {
@@ -191,10 +191,9 @@ ul li a{
  
 .menu-footer {
     background-color: #D9376E;
-    padding: 1.5% 8%;
+    padding: 1.2% 8%;
     border-radius: 0px 22px 0px 22px;
     margin-top: 24px;
-    margin-right: 98px;
     font-family: 'Balsamiq Sans';
     cursor: pointer;
 }
@@ -345,13 +344,6 @@ label  {
     width: 480px;
 }
 
-.avatar-content .bintang {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    font-size: 0.9rem;
-}
-
 .avatar-text {
     font-weight: 800;
 }
@@ -366,10 +358,6 @@ label  {
     display: flex;
     align-items: center;
     gap: 12px;
-}
-
-.avatar img {
-    width: 63px;
 }
 
 @media only screen and (max-width: 1670px) {
@@ -664,6 +652,14 @@ label  {
     .layanan-dapur h1 {
         font-size: 42px;
     }
+
+    .left-content h1 {
+        font-size: 48px;
+    }
+
+    .tagline {
+        font-size: 4px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -688,5 +684,9 @@ label  {
 
     .said h1 {
         font-size: 16px;
-    }  
+    } 
+    
+    .content-home .left-content p {
+        font-size: 18px;
+    }
 }
