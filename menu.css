@@ -172,12 +172,7 @@ html {
 
 .product-grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-<<<<<<< HEAD
-    gap: 80px;
-=======
-    gap: 30px;
->>>>>>> cedc859f7cc29ce158df0c077d54f37ef1a80709
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .product-card{
