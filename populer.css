@@ -87,7 +87,7 @@ html {
 }
 
 .menu1 h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -115,6 +115,32 @@ html {
   margin-bottom: 8px;
 }
 
+@media (max-width: 1286px) {
+  .menu1 h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 1162px) {
+  .menu1 h3 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .ratingstar,
+  .ratingkomen {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 8px;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 1050px) {
   .menu1 {
     display: none;
@@ -130,7 +156,7 @@ html {
   }
 
   .menu1 h3 {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
   }
 
@@ -143,11 +169,18 @@ html {
     padding: 8px;
     width: 40%;
     border-radius: 10px;
-    font-size: 10px;
+    font-size: 16px;
   }
 
   .Title2 h1 {
     font-size: 40px;
+  }
+
+  .menucard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 15px;
   }
 }
 
@@ -166,7 +199,7 @@ html {
   }
 
   .menu1 h3 {
-    font-size: 10px;
+    font-size: 16px;
     font-weight: bold;
   }
 
@@ -174,6 +207,7 @@ html {
     display: flex;
     justify-content: center;
     gap: 14px;
+    margin-top: 12px;
   }
 
   .ratingstar,
@@ -186,7 +220,7 @@ html {
     margin-top: 10px;
     width: 58%;
     border-radius: 10px;
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 
