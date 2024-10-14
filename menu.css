@@ -48,10 +48,6 @@ html {
     margin-top: 40px;
 }
 
-/* .product-grid{
-    padding-left: 17%;
-} */
-
 .filter{
     margin-top: 70px;
     margin-bottom: 100px;
@@ -126,7 +122,6 @@ html {
 .filter button .button-container{
     gap: 20px;
     display: flex;
-    flex-direction: row;
 }
 
 .filter .button-container img{
@@ -177,8 +172,8 @@ html {
 
 .product-grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
 }
 
 .product-card{
@@ -1406,6 +1401,13 @@ html {
     .content{
         font-size: 80%;
     }
+
+    .filter{
+        margin-top: 26px;
+        margin-bottom: 100px;
+        display: flex;
+        gap: 30px;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 599px){
@@ -1504,6 +1506,13 @@ html {
 
     .content{
         font-size: 50%;
+    }
+
+    .filter{
+        margin-top: 40px;
+        margin-bottom: 100px;
+        display: flex;
+        gap: 30px;
     }
 }
 
