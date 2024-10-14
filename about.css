@@ -65,9 +65,17 @@ body {
     margin-left: 10px;
   }
 
+  @media (max-width: 1285px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
   @media (max-width: 1300px) {
     .container {
       display: flex;
+      /* flex-direction: column; */
     }
 
     .container-text p {
