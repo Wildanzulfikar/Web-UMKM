@@ -1257,7 +1257,7 @@ html {
 .close-button {
     position: absolute;
     top: 15px;
-    right: 15px;
+    right: 10px;
     font-size: 25px;
     cursor: pointer;
 }
@@ -1486,6 +1486,9 @@ html {
         transform: rotate(90deg); 
     }
     
+    .circle-bottom {
+        width: 220px;
+    }
     .modal-content {
         background-color: white;
         max-width: 900px;
