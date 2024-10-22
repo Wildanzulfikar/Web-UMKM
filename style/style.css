@@ -97,6 +97,7 @@ ul li a{
     top: 0;
     right: 0;
     height: 100%;
+    z-index: -1;
 }
 
 .button-layanan {
@@ -174,7 +175,7 @@ ul li a{
 }
 
 .footer {
-    background-image: url(Assets/footer.png);
+    background-image: url(../Assets/footer.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 48px 17%;
